@@ -73,7 +73,7 @@ require "common/dbconn.php";
         mysqli_query($conn,$strSQL);
         echo "<script>
         alert('회원가입을 축하합니다.');
-        location.replace('member_login.php');
+        location.replace('/member/login.php');
         </script>";
     }
 ?>
